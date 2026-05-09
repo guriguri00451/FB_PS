@@ -1,0 +1,5 @@
+
+
+	<key>SplashEdit_3FB364CA_PCSXReduxPath</key>
+	<string>/Applications/PCSX-Redux.app/Contents/MacOS/PCSX-Redux</string>
+    
