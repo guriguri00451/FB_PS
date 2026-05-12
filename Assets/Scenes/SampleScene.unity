@@ -444,7 +444,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: net.psxsplash.splashedit.Runtime::SplashEdit.RuntimeCode.PSXSceneExporter
   GTEScaling: 100
-  SceneLuaFile: {fileID: 271950057456261835, guid: 62f2b83fc432040e9831f3c15c1d50e0, type: 3}
+  SceneLuaFile: {fileID: 0}
   FogColor: {r: 0.5, g: 0.5, b: 0.6, a: 1}
   FogEnabled: 0
   FogDensity: 5
@@ -502,8 +502,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: net.psxsplash.splashedit.Runtime::SplashEdit.RuntimeCode.PSXObjectExporter
   isActive: 1
-  bitDepth: 8
-  luaFile: {fileID: 271950057456261835, guid: aac5bf8e5bcef4786b76156037f9fed3, type: 3}
+  bitDepth: 15
+  luaFile: {fileID: 271950057456261835, guid: c4783411fe11b46fb841aced6b2834b5, type: 3}
   collisionType: 0
   vertexColorMode: 0
   flatVertexColor:
@@ -536,7 +536,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10302, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: cda33fd9adf2f4835a44a347b201c7fd, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -576,13 +576,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1512039478}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 7.78218, y: 6.6, z: 8.17376}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.87, y: 17.94, z: 13.08}
+  m_LocalScale: {x: 7.7868214, y: 6.695446, z: 8.6898}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1674637521
 GameObject:
   m_ObjectHideFlags: 0

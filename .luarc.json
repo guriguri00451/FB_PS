@@ -1,0 +1,30 @@
+{
+  "diagnostics": {
+    "globals": [
+      "Input",
+      "Entity",
+      "Vec3",
+      "Camera",
+      "Player",
+      "UI",
+      "Audio",
+      "Scene",
+      "Persist",
+      "Cutscene",
+      "Animation",
+      "SkinnedAnim",
+      "Controls",
+      "Interact",
+      "Timer",
+      "PSXMath",
+      "Random",
+      "FixedPoint",
+      "Convert",
+      "Debug",
+            "onCreate",
+            "jump",
+            "onUpdate",
+            "compress"
+    ]
+  }
+}

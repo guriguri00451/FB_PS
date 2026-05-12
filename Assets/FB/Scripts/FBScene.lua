@@ -31,14 +31,14 @@ function SetScneneState()
 end
 
 function OnButtonPress(self,button)
-    -- if 
-    -- button == Input.isPressed(Input.Circle) or 
-    -- button == Input.isPressed(Input.Cross) or
-    -- button == Input.isPressed(Input.Square) or
-    -- button == Input.isPressed(Input.Triangle)
-    -- then
-    --     SetScneneState()
-    -- end
+    if 
+    button == Input.isPressed(Input.CIRCLE) or 
+    button == Input.isPressed(Input.Cross) or
+    button == Input.isPressed(Input.Square) or
+    button == Input.isPressed(Input.Triangle)
+    then
+        SetScneneState()
+    end
     
 end
 
