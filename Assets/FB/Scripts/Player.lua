@@ -1,7 +1,8 @@
 local one = FixedPoint.new(1)
 
 --  初期設定
-local _initialPostion = Vec3.new(0, 0, 0)
+local _initialPostion = Vec3.new(0, -one / 2, one / 6
+)
 local _v = 0
 
 --　重力
